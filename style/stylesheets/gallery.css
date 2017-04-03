@@ -1,0 +1,93 @@
+.objectOwner {
+	font-style: italic;
+}
+
+.objectOwner {
+	padding: 0 10px 0 0;
+}
+
+.objectImageWrapper {
+	margin: 20px 0;
+	padding: 10px;
+	box-shadow: #888 0px 0px 10px;		
+	overflow: hidden;
+}
+
+.objectImage {
+	overflow: hidden;
+}
+
+.nextObjectArticle h3 {
+	padding: 5px 0;
+	margin: 0;
+}
+
+#galleryHeader {
+}
+
+#galleryTitleRight {
+	padding: 7px 15px;
+}
+
+#galleryTitle h1 {
+	padding: 0;
+	margin: 0;
+}
+
+#galleryTitle h2 {
+	padding: 0;
+	margin: 0;
+	
+	padding-bottom: 10px;
+}
+
+#galleryDropdownStep, #galleryDropdown {
+	margin-left: 10px;
+}
+
+#galleryDropdownStep p, #galleryDropdown  p{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+#galleryDropdownStep select {
+	width: 100px;
+}
+
+.galleryPreviewWrapper  {
+	float: left;
+	padding: 7px;
+	margin-right: 17px;
+	margin-bottom: 17px;
+	box-shadow: #888 0px 0px 10px;
+}
+
+.galleryPreviewNoMargin {
+	margin-right: 0;
+}
+
+.objectImageWrapper:hover, .galleryPreviewWrapper:hover {
+	box-shadow: #d78900 0px 0px 10px;	
+	cursor: pointer;
+}
+
+.galleryPreview {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+#galleryNavigation {
+	padding: 20px 0 15px 0;
+	text-align: center;
+}
+
+#galleryNavigation a {
+	margin: 0px 5px;
+}
+
+#gallerySingleRelatedObjects h2{
+	margin-bottom: 10px;
+}

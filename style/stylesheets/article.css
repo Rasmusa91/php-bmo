@@ -1,0 +1,70 @@
+.articleContent aside {
+	width: 30%;
+}
+
+.articleContent article img, .articleContent aside img {
+	width: 90%;
+	padding: 10px;
+	margin: 10px 0;
+	box-shadow: #888 0px 0px 10px;
+}
+
+.articleContent article{
+	padding-right: 5%;
+	width: 65%;
+}
+
+.articleContent figure {
+	padding: 0;
+	margin: 0;
+}
+
+.articleContent h1 {
+	padding-top: 20px;
+}
+
+.articleContent h2 {
+	margin: 0;
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+.articleContent .strict{}
+.articleContent .standard{}
+
+.articleTitle {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.articleAuthor {
+	font-style: italic;
+	font-size: 14px;
+	padding: 7px 0;
+}
+
+#articleSingle .articleAuthor {
+	padding: 0 0 15px 0;
+	font-size: 15px;
+}
+
+.articleContent {
+	
+}
+
+.articleView {
+	padding: 7px 0 30px 0;
+}
+
+.articleView a {
+	font-style: italic;
+}
+
+.nextObjectArticle h3 {
+	padding: 5px 0;
+	margin: 0;
+}
+
+#articleSingleRelatedObjects h2 {
+	margin: 10px 0 15px 0;
+}

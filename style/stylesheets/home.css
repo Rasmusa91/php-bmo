@@ -1,0 +1,12 @@
+#homeContent h1 {
+	margin: 10px 0 5px 0;
+	padding: 0;
+}
+
+#homeContent .articleView {
+	padding: 7px 0 20px 0;
+}
+
+#homeObjects h1 {
+	margin-top: 0;
+}

@@ -1,0 +1,174 @@
+@import url(stylesheets/admin.css);
+@import url(stylesheets/article.css);
+@import url(stylesheets/footer.css);
+@import url(stylesheets/gallery.css);
+@import url(stylesheets/header.css);
+@import url(stylesheets/login.css);
+@import url(stylesheets/popup.css);
+@import url(stylesheets/home.css);
+@import url(stylesheets/about.css);
+@import url(stylesheets/search.css);
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	
+	width: 750px;
+	min-height: 100%;
+	color: #333;
+}
+
+a {
+	color: #000;
+	font-weight: bold;
+}
+
+.selectedLink, a:hover {
+	text-decoration: none;
+	color: #d78900;
+}
+
+h1 {
+	margin: 0;
+	padding: 10px 0;
+}
+
+h2 {
+	margin: 0;
+	padding-top: 0;	
+}
+
+h3 {
+	margin: 10px 0 5px 0;
+	padding: 0;	
+}
+
+p {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+input {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	border: 1px solid #a0a0a0;
+		
+	height: 25px;
+	width: 200px;
+	
+	margin: 5px 0;
+	padding: 0 5px;
+	
+	outline: none;
+	
+	background-color: #fff;
+	color: #333;
+}
+
+input:disabled {
+	background-color: #ebebe4;
+}
+
+select {
+	width: 200px;
+	height: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+textarea {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.radioButton {
+	margin: 5px 0 0 10px;
+	padding: 0;
+
+	
+	width: 20px!important;
+	height: 20px;
+	
+}
+
+.button {
+	height: 25px;
+	width: 100px;
+}
+
+.button:hover {
+	background-color: #ccf0ff;
+	cursor: pointer;
+}
+
+.button:hover:disabled {
+	background-color: #ebebe4;
+	cursor: default;
+}
+
+.hidden {
+	display: none;
+}
+
+.formErrors {
+	color: #f00;
+	font-style: italic;
+	margin-top: 10px;
+	font-size: 15px;
+	word-break: break-all;
+}
+
+.inline {
+	display: inline;
+}
+
+.background {
+	font-style: italic;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.textRight {
+	text-align: right;
+}
+
+.noSpaces {
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper {
+	padding: 0 20px;
+	min-height: 100%;
+	position: relative;
+	box-shadow: #888 0px 0px 10px;
+}
+
+#content {
+	padding-bottom: 110px;
+	word-break: break-all;
+}
+
+#errorContent {
+	margin-top: 20px;
+}

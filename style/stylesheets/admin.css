@@ -1,0 +1,42 @@
+#adminSide {
+	float: left;
+	width: 30%;
+}
+
+#adminSide a {
+	font-weight: normal;
+}
+
+#adminSide  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 25px;
+}
+
+#adminContent {
+	float: left;
+	width: 60%;
+}
+
+#adminContent #errorContent {
+	margin-top: 0;
+}
+
+#adminContent textarea {
+	width: 100%;
+	height: 200px;
+	margin-top: 10px;
+}
+
+#adminContent input {
+	width: 200px;
+}
+
+#adminContent select {
+	width: 212px;
+}
+
+#adminContent .button {
+	width: 100px;
+}
